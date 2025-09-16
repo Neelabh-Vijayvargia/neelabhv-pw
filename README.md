@@ -1,6 +1,4 @@
-# 🌟 Aditi Arya  
+# Neelabh Vijayvargia
 
-### 👩‍💻 Welcome to my personal portfolio!  
-Explore my work and projects below 👇👇👇  
+### Welcome to my personal portfolio!   
 
-🔗 [Check it out](https://aditiarya.netlify.app/)
