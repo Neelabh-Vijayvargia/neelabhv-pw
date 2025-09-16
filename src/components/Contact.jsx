@@ -32,7 +32,7 @@ const Contact = () => {
           </p>
           <a
             href={`mailto:${personalInfo.email}`}
-            className="inline-block px-10 py-4 font-mono text-lg bg-accent-1 text-primary-bg rounded-md hover:bg-opacity-80 transition-all duration-300 shadow-lg hover:shadow-accent-1/30"
+            className="inline-block px-10 py-4 font-mono text-lg bg-accent-1 text-primary-bg rounded-md hover:bg-accent-soft transition-all duration-300 shadow-lg hover:shadow-accent-1/30"
           >
             Say Hello
           </a>

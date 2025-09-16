@@ -7,9 +7,8 @@ import { motion } from 'framer-motion';
 const navItems = [
   { name: 'Home', to: 'hero' },
   { name: 'About', to: 'about' },
-  { name: 'Skills', to: 'skills' },
-  { name: 'Projects', to: 'projects' },
   { name: 'Experience', to: 'experience' },
+  { name: 'Projects', to: 'projects' },
   { name: 'Contact', to: 'contact' },
 ];
 
@@ -65,7 +64,7 @@ const Navbar = () => {
             href={personalInfo.resumeLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 font-mono border-2 border-accent-1 text-accent-1 rounded hover:bg-accent-1 hover:text-primary-bg transition-all duration-300"
+            className="px-4 py-2 font-mono border-2 border-accent-1 text-accent-1 rounded hover:bg-accent-soft hover:text-primary-bg hover:border-accent-soft transition-all duration-300"
           >
             Resume
           </a>
@@ -107,7 +106,7 @@ const Navbar = () => {
             href={personalInfo.resumeLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="block text-center mt-2 mx-4 px-4 py-3 font-mono border-2 border-accent-1 text-accent-1 rounded hover:bg-accent-1 hover:text-primary-bg transition-all duration-300"
+            className="block text-center mt-2 mx-4 px-4 py-3 font-mono border-2 border-accent-1 text-accent-1 rounded hover:bg-accent-soft hover:text-primary-bg hover:border-accent-soft transition-all duration-300"
             onClick={() => setIsOpen(false)}
           >
             Resume

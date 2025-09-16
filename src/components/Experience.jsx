@@ -30,7 +30,7 @@ const Experience = () => {
   return (
     <section id="experience" className="py-20 bg-secondary-bg">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionTitle id="experience-title">Leadership & Involvement</SectionTitle>
+        <SectionTitle id="experience-title">Work Experience</SectionTitle>
 
         <div className="relative max-w-5xl mx-auto mt-12 sm:mt-16">
           {/* Central Timeline Line: Positioned to align with the center of the icon holder */}

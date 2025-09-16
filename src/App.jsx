@@ -2,12 +2,12 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
-import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop'; // Optional
+import './utils/themeToggle.js'; // Dev toggle utility
 
 function App() {
   return (
@@ -15,10 +15,9 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <About />
-        <Skills />
-        <Projects />
+        {/* <About /> */}
         <Experience />
+        <Projects />
         <Contact />
       </main>
       <Footer />

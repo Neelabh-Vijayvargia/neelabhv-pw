@@ -7,13 +7,15 @@ export default {
   ],
   theme: {
     extend: {
-      colors: { // Your existing colors
-        'primary-bg': '#1a1a2e',
-        'secondary-bg': '#16213e',
-        'accent-1': '#00f5c3',
-        'accent-2': '#e94560',
-        'text-primary': '#e0e0e0',
-        'text-secondary': '#a0a0a0',
+      colors: { // UT-themed colors (warm beige background)
+        'primary-bg': '#2A2A2A',     // Warm beige with soft orange undertone
+        'secondary-bg': '#383838',   // Slightly darker beige for contrast
+        'accent-1': '#D9732D',       // UT light burnt orange
+        'accent-2': '#BF5700',       // UT official burnt orange (strong)
+        'accent-soft': '#F1B085',    // Soft tint for hovers
+        'text-primary': '#F3F4F6',   // Gray-800 for readability
+        'text-secondary': '#9CA3AF', // Gray-600 muted text
+        'ut-ring': '#D9732D',        // Focus ring color
       },
       fontFamily: {
         // MODIFICATION: Set JetBrains Mono as the default sans-serif font

@@ -28,15 +28,16 @@ const Hero = () => {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-text-secondary mb-6">
             <TypeAnimation
               sequence={[
-                'I build things for the web.',
+                'I build things that scale.',
                 2000,
-                'I am a Full Stack Developer.',
+                'I create tools powered by data.',
                 2000,
-                'I love to code.',
+                'I design systems with impact.',
                 2000,
-                'I solve problems.',
+                'I solve hard problems.',
                 2000,
               ]}
+              
               wrapper="span"
               speed={50}
               repeat={Infinity}
@@ -59,7 +60,7 @@ const Hero = () => {
             smooth={true}
             duration={500}
             offset={-70}
-            className="px-8 py-3 font-mono text-lg bg-accent-1 text-primary-bg rounded-md hover:bg-opacity-80 transition-all duration-300 cursor-pointer shadow-lg hover:shadow-accent-1/30"
+            className="px-8 py-3 font-mono text-lg bg-accent-1 text-primary-bg rounded-md hover:bg-accent-soft transition-all duration-300 cursor-pointer shadow-lg hover:shadow-accent-1/30"
           >
             View My Work
           </ScrollLink>
@@ -67,7 +68,7 @@ const Hero = () => {
             href={personalInfo.resumeLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-3 font-mono text-lg border-2 border-accent-1 text-accent-1 rounded-md hover:bg-accent-1 hover:text-primary-bg transition-all duration-300 flex items-center shadow-lg hover:shadow-accent-1/30"
+            className="px-8 py-3 font-mono text-lg border-2 border-accent-1 text-accent-1 rounded-md hover:bg-accent-soft hover:text-primary-bg hover:border-accent-soft transition-all duration-300 flex items-center shadow-lg hover:shadow-accent-1/30"
           >
             <FaDownload className="mr-2" /> Download CV
           </a>

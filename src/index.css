@@ -7,6 +7,39 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Poppins:wght@400;600;700&display=swap');
 
 @layer base {
+  :root {
+    /* UT Palette Tokens - Warm Beige Theme */
+    --ut-accent: #D9732D;        /* UT light burnt orange */
+    --ut-accent-strong: #BF5700;  /* UT burnt orange (official) */
+    --ut-accent-soft: #F1B085;    /* soft tint for hovers */
+    --ut-bg: #EAD9C7;             /* warm beige with soft orange undertone */
+    --ut-text: #1F2937;           /* gray-800 for readability */
+    --ut-muted: #4B5563;          /* gray-600 muted text */
+    --ut-ring: #D9732D;           /* focus ring */
+  }
+
+  /* Dev toggle - dark theme */
+  html[data-theme="dark"] {
+    --ut-accent: #D9732D;        /* UT burnt orange */
+    --ut-accent-strong: #BF5700; /* UT strong orange */
+    --ut-accent-soft: #F1B085;   /* soft orange */
+    --ut-bg: #0A192F;            /* dark navy bg */
+    --ut-text: #E2E8F0;          /* light text */
+    --ut-muted: #94A3B8;         /* muted light text */
+    --ut-ring: #F1B085;          /* light focus ring */
+  }
+
+  /* Dev toggle - original theme */
+  html[data-theme="original"] {
+    --ut-accent: #00f5c3;        /* original teal */
+    --ut-accent-strong: #e94560; /* original red */
+    --ut-accent-soft: #00f5c3;   /* original teal */
+    --ut-bg: #1a1a2e;            /* original dark bg */
+    --ut-text: #e0e0e0;          /* original text */
+    --ut-muted: #a0a0a0;         /* original muted */
+    --ut-ring: #00f5c3;          /* original ring */
+  }
+
   html {
     scroll-behavior: smooth;
   }
@@ -14,7 +47,8 @@
     @apply bg-primary-bg text-text-primary font-sans antialiased;
   }
   ::selection {
-    @apply bg-accent-1 text-primary-bg;
+    background-color: var(--ut-accent);
+    color: var(--ut-bg);
   }
 }
 
@@ -29,7 +63,7 @@
   @apply bg-accent-1 rounded-full;
 }
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-opacity-80;
+  background-color: var(--ut-accent-soft);
 }
 
 /* For section transitions (using your previous example) */
