@@ -46,7 +46,7 @@ export const projects = [
     title: "Lock-Free Order Matching Engine",
     tech: ["C++"],
     description: "High-frequency trading order matching engine using lock-free data structures. Optimized for ultra-low latency with concurrent order processing and real-time price matching.",
-    date: "2024",
+    date: "2025",
     githubLink: null, // Replace with actual link if available
     liveLink: null,
     category: "Systems",
@@ -56,7 +56,7 @@ export const projects = [
     title: "Minerva (AI Teaching Assistant)",
     tech: ["Flask", "LlamaIndex", "GPT API"],
     description: "AI-powered teaching assistant using retrieval-augmented generation. Integrated with course materials to provide contextual answers and learning support for students.",
-    date: "2024",
+    date: "2025",
     githubLink: null, // Replace with actual link if available
     liveLink: null,
     category: "AI/ML",
@@ -66,7 +66,17 @@ export const projects = [
     title: "Truth Social Sentiment Trader",
     tech: ["Python", "Scikit-Learn", "Hugging Face", "Pandas"],
     description: "Automated trading system using sentiment analysis of social media posts. Built machine learning pipeline to analyze market sentiment and execute trades based on predictive models.",
-    date: "2024",
+    date: "2025",
+    githubLink: null, // Replace with actual link if available
+    liveLink: null,
+    category: "AI/ML",
+    icon: <SiPython size={24} className="text-accent-1"/>
+  },
+  {
+    title: "MNIST Neural Network Classifier",
+    tech: ["Python", "NumPy", "Pandas", "Linear Algebra"],
+    description: "Built predictive classifcation neural network from scratch using ReLu and Softmax with Adam optimizer and gradient descent.",
+    date: "2025",
     githubLink: null, // Replace with actual link if available
     liveLink: null,
     category: "AI/ML",
